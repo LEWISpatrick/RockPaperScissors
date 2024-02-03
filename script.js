@@ -114,9 +114,13 @@ function endGame(totalScores) {
   const resultDiv = document.getElementById('result');
   const playerScore = document.getElementById('player-score');
   const hands = document.getElementById('hands');
+  const computerScore = document.getElementById('computer-score')
+
   resultDiv.innerText = ''
   playerScore.innerText  = ''
   hands.innerText = ''
+  playerScore.innerText  = ''
+  computerScore.innerText = ''
 }
 
 playGame()
